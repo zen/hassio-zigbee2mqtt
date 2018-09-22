@@ -1,5 +1,5 @@
 {
-  "name": "Zigbee2mqtt Hass.io Add-on",
-  "url": "https://github.com/danielwelch/hassio-zigbee2mqtt",
-  "maintainer": "Daniel Welch <dwelch2102@gmail.com>"
+  "name": "Zigbee2mqtt Hass.io Add-on Zen fork",
+  "url": "https://github.com/zen/hassio-zigbee2mqtt",
+  "maintainer": "Tomasz 'Zen' Napierala <tomasz@napierala.org>"
 }

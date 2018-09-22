@@ -4,7 +4,7 @@
   "slug": "zigbee2mqtt",
   "description": "Zigbee to MQTT Bridge",
   "auto_uart": true,
-  "url": "https://github.com/danielwelch/hassio-zigbee2mqtt",
+  "url": "https://github.com/zen/hassio-zigbee2mqtt",
   "startup": "before",
   "boot": "auto",
   "map": ["share:rw"],
@@ -29,5 +29,5 @@
     "debug": "bool?",
     "err": "bool?"
   },
-  "image": "dwelch2101/zigbee2mqtt-{arch}"
+  "image": "zen/zigbee2mqtt-{arch}"
 }
