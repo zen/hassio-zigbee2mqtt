@@ -23,15 +23,11 @@
     "mqtt_base_topic": "str",
     "mqtt_server": "str",
     "serial_port": "str",
+    "serial_disable_led": "bool?",
     "mqtt_user": "str?",
     "mqtt_pass": "str?",
-    "mqtt_client_id": "str?",
-    "disable_led": "bool?",
-    "cache_state": "bool?",
-    "log_directory": "str?",
-    "log_level": "match(^info|debug|warn|error$)?",
-    "zigbee_shepherd_debug": "bool?",
-    "rtscts": "bool?"
+    "debug": "bool?",
+    "err": "bool?"
   },
   "image": "dwelch2101/zigbee2mqtt-{arch}"
 }
